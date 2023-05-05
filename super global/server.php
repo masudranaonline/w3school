@@ -12,4 +12,4 @@
 	echo '<br>';
 	echo $_SERVER['SCRIPT_NAME'];
 	echo '<br>';
-	echo $_SERVER['PATH_TRANSLATED'];
+	echo $_SERVER['REQUEST_METHOD'];
