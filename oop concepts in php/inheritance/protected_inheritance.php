@@ -9,10 +9,9 @@
 			$this->name = $name;
 			$this->color = $color;
 		}
-		public function rana()
+		public function intro()
 		{
-			//  echo "The fruit is ".$this->name." and the color is".$this->color; 
-			echo "The fruit is {$this->name} and the color is {$this->color}";
+			 echo "The fruit is ".$this->name." and the color is".$this->color; 
 		}
 	}
 
@@ -29,4 +28,4 @@
 
 	$strawberry = new Strawberry("Strawberry", "red");
 	$strawberry->Message();
-	$strawberry->rana();
+	$strawberry->intro();
